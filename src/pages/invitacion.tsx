@@ -130,11 +130,10 @@ const Invitacion = () => {
           Hola! Mis papis están muy emocionados y con mucho cariño han preparado
           esta revelación. <br />
           Les haría muy felices que estés con nosotros para descubrir si llegará
-          una{" "}
           {selectedGender === "girl"
-            ? "princesa 🎀"
+            ? "una princesa 🎀"
             : selectedGender === "boy"
-            ? "campeón 🚀"
+            ? "un campeón 🚀"
             : "sorpresa 💝"}
           .
         </motion.p>
